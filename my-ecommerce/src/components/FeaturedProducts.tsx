@@ -1,8 +1,8 @@
 import { useState } from "react";
 import ProductCard from "./ProductCard";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { PRODUCTS } from "@/data/products";
+import { Button } from "/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "/components/ui/tabs";
+import { PRODUCTS } from "/data/products";
 
 const FeaturedProducts = () => {
   const [activeTab, setActiveTab] = useState("all");

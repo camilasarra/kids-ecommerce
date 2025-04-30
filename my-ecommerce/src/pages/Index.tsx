@@ -1,8 +1,8 @@
 
-import Hero from "@/components/Hero";
-import FeaturedProducts from "@/components/FeaturedProducts";
-import Features from "@/components/Features";
-import Newsletter from "@/components/Newsletter";
+import Hero from "/components/Hero";
+import FeaturedProducts from "/components/FeaturedProducts";
+import Features from "/components/Features";
+import Newsletter from "/components/Newsletter";
 
 const Index = () => {
   return (

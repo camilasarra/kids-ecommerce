@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ChevronLeft, Heart, ShoppingCart, Star } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
-import { PRODUCTS } from "@/data/products";
+import { Button } from "/components/ui/button";
+import { useToast } from "/components/ui/use-toast";
+import { PRODUCTS } from "/data/products";
 import FeaturedProducts from "@/components/FeaturedProducts";
 
 const ProductPage = () => {

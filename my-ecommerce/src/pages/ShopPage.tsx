@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { Minus, Plus, Search, SlidersHorizontal } from "lucide-react";
 import { Button } from "../../components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
+import { Input } from "/components/ui/input";
+import { Checkbox } from "/components/ui/checkbox";
+import { Label } from "/components/ui/label";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
-import { PRODUCTS } from "@/data/products";
-import ProductCard from "@/components/ProductCard";
+} from "/components/ui/sheet";
+import { PRODUCTS } from "/data/products";
+import ProductCard from "/components/ProductCard";
 
 const ShopPage = () => {
   const [searchQuery, setSearchQuery] = useState("");

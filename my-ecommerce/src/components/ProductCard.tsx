@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Heart, ShoppingCart } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
+import { Button } from "/components/ui/button";
+import { useToast } from "/components/ui/use-toast";
 
 interface ProductCardProps {
   id: string;
